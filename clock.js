@@ -11,7 +11,7 @@ function displayTime() {
         session.innerHTML = "AM";
     }
     if (h > 12) {
-        h += 12;
+        h +- 12;
     }
 
     document.getElementById("hours").innerHTML = h;
